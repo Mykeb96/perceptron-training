@@ -1,0 +1,28 @@
+.main-container{
+  border: 1px solid red;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="range"]{
+  width: 400px;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+}
+
+/* .plot-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.modebar-container{
+  position: relative !important;
+
+}
